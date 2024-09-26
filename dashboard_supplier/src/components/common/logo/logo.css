@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+}
+.section1{
+    border: solid 0px black;
+    height: 100vh;
+    width: 55%;
+    display: flex;
+}
+/* .section1-inner1{
+    border: solid 1px;
+    height: 100vh;
+    width: 65%;
+    background-color: #004481;
+} */
+.section1-inner2{
+    border: solid 0px;
+    height: 100vh;
+    width: 45%;
+}
+.section2{
+    border: solid 0px black;
+    height: 100vh;
+    width: 45%;
+   
+}
+.innersection2{
+    border: solid 0px white;
+    height: 362px;
+    width: 380px;
+    border-radius: 30px;
+    /* margin: auto; */
+    margin-top: 126px;
+    display: block;
+    background-color: rgb(250, 247, 247);
+    /* box-shadow: 4px 4px rgba(128, 128, 128, 0.1) ; */
+ 
+}
+.admin-btn{
+    margin-top: 80px;
+     height: 64.76px;
+    width: 346px;
+    border-radius: 50px;
+     /* background-color: #004481; */
+     background-color:#014D4E;
+     color: white;
+     border: 0;
+     font-size: 28px;
+}
+.login-btn{
+    margin-top: 30px;
+     height: 64.76px;
+    width: 346px;
+     border-radius: 50px;
+     background-color:#014D4E;
+     color:white;
+     border: 0;
+     font-size: 28px;
+}
+.circle1{
+    height: 473px;
+    width: 519px;
+    border: solid 2px white;
+    border-radius: 50%;
+}
+.circle2{
+    height: 463px;
+    width: 510px;
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 50%;
+    position: relative;
+    top: 3px;
+    left: 2px;
+}
+.circle3{
+    height: 450px;
+    width: 491px;
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 50%;
+    position: relative;
+    top: 4px;
+    left: 4px;
+}
+.circle4 {
+    border: solid 25px #014D4E;
+    height: 421px;
+    width: 453px;
+    border-radius: 50%;
+    position: relative;
+    top: 15px;
+    left: 3px;
+    background-color: white;
+}
+.circle5 {
+    border: solid 28px #ffffff;
+    height: 354px;
+    width: 383px;
+    border-radius: 50%;
+    position: relative;
+    top: 7px;
+    left: 8px;
+    background-color: #014D4E;
+}
+.circle5-h1 {
+    color: white;
+    margin-top: 108px;
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: sans-serif;
+    /* vertical-align: text-top; */
+}
+.main-circle{
+    position: relative;
+    top: 74px;
+    left: 200px;
+}
